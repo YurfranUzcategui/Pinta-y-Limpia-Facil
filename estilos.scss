@@ -141,7 +141,7 @@ img {
 
 video {
     height: 20rem;
-    width: 20rem;
+    width: auto;
 }
 
 .galeria1__video:hover {
@@ -164,6 +164,9 @@ video {
         width: 14rem;
         height: 10rem;
         margin-right: 30px;
+    }
+    .galeria1 {
+        padding: 1rem;
     }
 }
 
