@@ -20,7 +20,7 @@ h2 {
 header {
     height: 6rem;
     width: 100%;
-    background: rgb(101, 138, 163);
+    background: rgb(109, 176, 202);
 }
 
 .collapse {
@@ -92,6 +92,12 @@ ul li {
     position: relative;
     margin-bottom: 50px;
 }
+.espacio1 {
+    background-color: #aac4bf;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
 
 .espacio__img {
     width: 300px;
@@ -112,7 +118,6 @@ ul li {
 .galeria {
     width: 100%;
     height: auto;
-    background-color: rgba(79, 100, 100, 0.5);
     display: grid;
     justify-items: center;
     padding: 2rem;
@@ -121,7 +126,7 @@ ul li {
 .galeria1 {
     width: 100%;
     height: auto;
-    background-color: rgba(61, 120, 122, 0.5);
+    background-color: rgb(100, 165, 190);
     display: grid;
     grid-template-columns: 33% 34% 33%;
     grid-template-rows: 24rem 24rem;
@@ -149,8 +154,8 @@ video {
     transition: 0.8s;
 }
 
-.abajo1 {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(73, 121, 153, 0.774));
+footer {
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(109, 176, 202));
 }
 
 @media only screen and (max-width:620px) {

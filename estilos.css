@@ -20,7 +20,7 @@ h2 {
 header {
   height: 6rem;
   width: 100%;
-  background: #658aa3;
+  background: #6db0ca;
 }
 
 .collapse {
@@ -109,6 +109,13 @@ ul li {
   margin-bottom: 50px;
 }
 
+.espacio1 {
+  background-color: #aac4bf;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
 .espacio__img {
   width: 300px;
   height: 180px;
@@ -128,7 +135,6 @@ ul li {
 .galeria {
   width: 100%;
   height: auto;
-  background-color: rgba(79, 100, 100, 0.5);
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -138,7 +144,7 @@ ul li {
 .galeria1 {
   width: 100%;
   height: auto;
-  background-color: rgba(61, 120, 122, 0.5);
+  background-color: #64a5be;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 33% 34% 33%;
@@ -173,9 +179,9 @@ video {
   transition: 0.8s;
 }
 
-.abajo1 {
-  background-image: -webkit-gradient(linear, left top, right top, from(white), to(rgba(73, 121, 153, 0.774)));
-  background-image: linear-gradient(to right, white, rgba(73, 121, 153, 0.774));
+footer {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(#6db0ca));
+  background-image: linear-gradient(to top, white, #6db0ca);
 }
 
 @media only screen and (max-width: 620px) {
