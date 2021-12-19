@@ -17,6 +17,11 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(46, 78, 78);
+}
+
 header {
     height: 6rem;
     width: 100%;
@@ -57,6 +62,10 @@ ul li {
     height: 100%;
 }
 
+.carrusel {
+    padding: 2rem;
+}
+
 .articulo {
     background-color: #aac4bf;
     border-radius: 15px;
@@ -70,6 +79,11 @@ ul li {
 .articulo__titulo {
     font-size: 1.5rem;
     margin-bottom: 20px;
+}
+.articulo__titulo1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: red;
 }
 
 .articulo__parrafo {
@@ -155,7 +169,13 @@ video {
 }
 
 footer {
-    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(109, 176, 202));
+    background-color: rgb(109, 176, 202);
+}
+
+.efooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
 }
 
 .iconos {

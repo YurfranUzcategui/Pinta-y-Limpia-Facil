@@ -17,6 +17,11 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #2e4e4e;
+}
+
 header {
   height: 6rem;
   width: 100%;
@@ -65,6 +70,10 @@ ul li {
   height: 100%;
 }
 
+.carrusel {
+  padding: 2rem;
+}
+
 .articulo {
   background-color: #aac4bf;
   border-radius: 15px;
@@ -82,6 +91,12 @@ ul li {
 .articulo__titulo {
   font-size: 1.5rem;
   margin-bottom: 20px;
+}
+
+.articulo__titulo1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: red;
 }
 
 .articulo__parrafo {
@@ -180,8 +195,19 @@ video {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(#6db0ca));
-  background-image: linear-gradient(to top, white, #6db0ca);
+  background-color: #6db0ca;
+}
+
+.efooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .iconos {
