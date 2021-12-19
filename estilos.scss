@@ -126,7 +126,7 @@ ul li {
 .galeria1 {
     width: 100%;
     height: auto;
-    background-color: rgb(100, 165, 190);
+    background-color: #aac4bf;
     display: grid;
     grid-template-columns: 33% 34% 33%;
     grid-template-rows: 24rem 24rem;
@@ -156,6 +156,19 @@ video {
 
 footer {
     background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(109, 176, 202));
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding: 1rem;
+}
+
+.icono {
+    height: 3rem;
+    width: auto;
+    
 }
 
 @media only screen and (max-width:620px) {

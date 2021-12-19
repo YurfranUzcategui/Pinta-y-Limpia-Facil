@@ -144,7 +144,7 @@ ul li {
 .galeria1 {
   width: 100%;
   height: auto;
-  background-color: #64a5be;
+  background-color: #aac4bf;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 33% 34% 33%;
@@ -182,6 +182,24 @@ video {
 footer {
   background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(#6db0ca));
   background-image: linear-gradient(to top, white, #6db0ca);
+}
+
+.iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.icono {
+  height: 3rem;
+  width: auto;
 }
 
 @media only screen and (max-width: 620px) {
